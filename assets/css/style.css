@@ -135,7 +135,7 @@ body {
   	font-size: 14px;
   	-webkit-font-smoothing: antialiased;
   		-moz-osx-font-smoothing: grayscale;
-  	font-family: "Georgia", sans-serif;
+  	font-family: "Open Sans", sans-serif;
   	color: #262626;
   	font-weight: 400;
  	margin: 0; 
@@ -179,7 +179,7 @@ select,
 textarea {
 	font-size: 14px;
 	line-height: 1.75;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a:hover {
@@ -200,11 +200,11 @@ button:focus {
 
 p {
 	margin: 30px 0 0 0;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	color: inherit;
 }
@@ -245,7 +245,7 @@ h3,
 h4, 
 h5, 
 h6 {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin: 0;
   	line-height: 1.3;
 }
@@ -1404,7 +1404,7 @@ input[type="submit"]:hover {
 }
 
 ::-webkit-input-placeholder {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	text-transform: uppercase;
    	font-size: 12px;
    	font-weight: 400;
@@ -1414,7 +1414,7 @@ input[type="submit"]:hover {
 }
 
 :-moz-placeholder {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	text-transform: uppercase;
    	font-size: 12px;
    	font-weight: 400;
@@ -1424,7 +1424,7 @@ input[type="submit"]:hover {
 }
 
 ::-moz-placeholder {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	text-transform: uppercase;
    	font-size: 12px;
    	font-weight: 400;
@@ -1434,7 +1434,7 @@ input[type="submit"]:hover {
 }
 
 :-ms-input-placeholder {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	text-transform: uppercase;
    	font-size: 12px;
    	font-weight: 400;
@@ -1444,7 +1444,7 @@ input[type="submit"]:hover {
 }
 
 ::-ms-input-placeholder {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	text-transform: uppercase;
    	font-size: 12px;
    	font-weight: 400;
@@ -1454,7 +1454,7 @@ input[type="submit"]:hover {
 }
 
 ::placeholder { 
-   	font-family: 'Georgia', sans-serif;
+   	font-family: 'Open Sans', sans-serif;
    	text-transform: uppercase;
    	font-size: 12px;
    	font-weight: 400;
@@ -2454,7 +2454,7 @@ body.out .nav-container.active li li:nth-last-child(12) a {
 	font-size: 55px;
 	line-height: 1;
 	font-weight: 500;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: white;
 	white-space: nowrap;
 }	
@@ -3198,11 +3198,11 @@ body,
 }
 
 .open-sans-text {
-	font-family: 'Georgia', sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
 }
 
 .Georgia-text {
-	font-family: 'Georgia', sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
 }
 
 .text-trans-none {
@@ -3309,7 +3309,7 @@ body,
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 2px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1;
 	font-size: 30px;
 }
@@ -3320,7 +3320,7 @@ body,
 	line-height: 1.4;
 	font-weight: 600;
 	letter-spacing: 0px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .small-title-Georgia {
@@ -3329,7 +3329,7 @@ body,
 	line-height: 1.4;
 	font-weight: 600;
 	letter-spacing: 0px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .xsmall-title-Georgia {
@@ -3338,7 +3338,7 @@ body,
 	line-height: 1.4;
 	font-weight: 600;
 	letter-spacing: 1px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .medium-title {
@@ -3347,7 +3347,7 @@ body,
 	line-height: 1.13;
 	font-weight: 500;
 	letter-spacing: 3px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .large-title {
@@ -3356,7 +3356,7 @@ body,
 	line-height: 1;
 	font-weight: 600;
 	letter-spacing: -2px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .large-title-bold {
@@ -3365,7 +3365,7 @@ body,
 	line-height: 1;
 	font-weight: 700;
 	letter-spacing: -2px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .xlarge-title {
@@ -3374,7 +3374,7 @@ body,
 	line-height: 1;
 	font-weight: 700;
 	letter-spacing: -2px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .xxlarge-title {
@@ -3383,7 +3383,7 @@ body,
 	line-height: 1;
 	font-weight: 700;
 	letter-spacing: -2px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .p-style-xsmall {
@@ -3391,7 +3391,7 @@ body,
 	line-height: 2.35;
 	font-weight: 300;
 	letter-spacing: 0px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .p-style-small {
@@ -3399,7 +3399,7 @@ body,
 	line-height: 2.15;
 	font-weight: 400;
 	letter-spacing: 1px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .p-style-medium {
@@ -3407,7 +3407,7 @@ body,
 	line-height: 1.8;
 	font-weight: 600;
 	letter-spacing: 0px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .p-style-large {
@@ -3415,7 +3415,7 @@ body,
 	line-height: 1.8;
 	font-weight: 400;
 	letter-spacing: 0px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .p-style-bold {
@@ -3423,7 +3423,7 @@ body,
 	line-height: 1.6;
 	font-weight: 600;
 	letter-spacing: 1px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .p-style-bold-up {
@@ -3432,7 +3432,7 @@ body,
 	line-height: 1.5;
 	font-weight: 700;
 	letter-spacing: 1px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .p-letter-style {
@@ -3441,7 +3441,7 @@ body,
 	line-height: 1;
 	font-weight: 400;
 	letter-spacing: 5px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -3833,7 +3833,7 @@ body,
 }
 
 .border-btn {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 6px;
 	font-size: 12px;
@@ -3958,7 +3958,7 @@ body,
 .flip-btn {
 	position: relative;
 	color: transparent;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	line-height: 1;
 	text-transform: uppercase;
@@ -4033,7 +4033,7 @@ body,
 			transition: .5s cubic-bezier(.86, 0, .07, 1);
 	display: inline-block;
 	text-transform: uppercase;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	line-height: 1;
 	font-weight: 500;
@@ -4149,7 +4149,7 @@ body.anim .scroll-btn-flip-box {
 	position: relative;
 	color: transparent;
 	display: block;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	line-height: 1;
 	text-transform: uppercase;
@@ -4348,7 +4348,7 @@ body.anim .scroll-arrow-box {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 1px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1;
 	font-size: 55px;
 	color: #262626;
@@ -5055,11 +5055,11 @@ body.anim .load-title-fill:after {
 .strokeme
 {
     /* color: white; */
-    text-shadow:
+   /* text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    1px 1px 0 #000;  */
 }
 
 .title-fill:after {
@@ -5661,7 +5661,7 @@ button.mfp-arrow,
 /* 12.2. Popup counter */
 .mfp-counter {
 	color: white;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
     font-size: 14px;
     right: 50%;
     -webkit-transform: translateX(50%);
@@ -6443,7 +6443,7 @@ body.anim .home-slider .swiper-pagination-bullet:nth-child(4) {
 	line-height: 1;
 	font-weight: 600;
 	letter-spacing: 1px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	-webkit-transition: .6s cubic-bezier(.2, .96, .34, 1);
 		-o-transition: .6s cubic-bezier(.2, .96, .34, 1);
 			transition: .6s cubic-bezier(.2, .96, .34, 1);
@@ -6576,7 +6576,7 @@ body.anim .home-slider .swiper-pagination-bullet:nth-child(4) {
 	line-height: 1;
 	font-weight: 600;
 	letter-spacing: 1px;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	-webkit-transition: 1s cubic-bezier(.2, .96, .34, 1);
 		-o-transition: 1s cubic-bezier(.2, .96, .34, 1);
 			transition: 1s cubic-bezier(.2, .96, .34, 1);
@@ -8153,7 +8153,7 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 	line-height: normal;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .search-btn {
@@ -8531,7 +8531,7 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 	line-height: normal;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .comments-form textarea {
@@ -8607,7 +8607,7 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: white;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	-webkit-transition: .5s;
 		-o-transition: .5s;
 			transition: .5s;
@@ -8664,7 +8664,7 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 	outline: 0;
 	position: relative;
 	color: transparent;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	line-height: 1;
 	text-transform: uppercase;
