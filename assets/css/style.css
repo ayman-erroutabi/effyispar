@@ -3118,7 +3118,7 @@ body,
 }
 
 .red-bg {
-	background:white;
+	background: #1d60a9;
 }
 
 /* 6.2. Text colors */
@@ -6008,14 +6008,7 @@ button.mfp-close {
 }
 
 .slider-title-fill:after {
-	color: #111517;
-	background: #f5f5f5;
-	-webkit-transition-delay: 1.3s;
-	    -o-transition-delay: 1.3s;
-	        transition-delay: 1.3s;
-}
-.slider-title-fille:after {
-	color:white;
+	color: #ffffff;
 	background: #f5f5f5;
 	-webkit-transition-delay: 1.3s;
 	    -o-transition-delay: 1.3s;
@@ -6045,11 +6038,11 @@ button.mfp-close {
 }
 
 .dark-bg-2 .slider-title-fill:after {
-	background:#f5f5f5;
+	background: #1b2a2f;
 }
 
 .red-bg .slider-title-fill:after {
-	background:#002c5c;
+	background: #1b2a2f;
 }
 
 .slider-tr-delay01.slider-title-fill:after {
