@@ -1,3 +1,6 @@
+p:not(#foot), span, h1, h2, h3, h3, h5, a {
+    text-align: justify !important;
+}
 /********************************************************
 	
   1. Basics
@@ -9067,3 +9070,90 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 	}
 		
 }
+
+/*  fade-in effect  */
+
+
+/* .fade-in {
+	animation: fadeIn ease 16s;
+	-webkit-animation: fadeIn ease 16s;
+	-moz-animation: fadeIn ease 16s;
+	-o-animation: fadeIn ease 16s;
+	-ms-animation: fadeIn ease 16s;
+  }
+  @keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-moz-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-webkit-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-o-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-ms-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+  } */
+
+/* 
+  .fade-in {
+	visibility: visible;
+	opacity: 0;
+	transition: visibility 1s linear 1s, opacity 500ms;
+  } */
+
+/* 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in:before,
+.fade-in:after {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards; 
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:0.5s;
+    -moz-animation-duration:0.5s;
+	animation-duration:0.5s;
+	
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+ */
