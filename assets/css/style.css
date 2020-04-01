@@ -5073,12 +5073,13 @@ body.anim .load-title-fill:after {
 	        transition-delay: .3s;
 }
 .title-filll:after {
-	color: #000;
+	color:black;
 	background: #f5f5f5;
 	-webkit-transition-delay: .3s;
 	    -o-transition-delay: .3s;
 	        transition-delay: .3s;
 }
+
 
 .title-fill.title-fill-anim:before,
 .title-fill.title-fill-anim:after {
@@ -5089,6 +5090,12 @@ body.anim .load-title-fill:after {
 .dark-bg-2 .title-fill:before {
 	color: white;
 }
+.dark-bg-1 .title-filll:before,
+.dark-bg-2 .title-filll:before {
+	color:#18467d
+}
+
+
 
 .red-bg .title-fill:before {
 	color: #262626;
@@ -5106,7 +5113,7 @@ body.anim .load-title-fill:after {
 	background: #1b2a2f;
 }
 .dark-bg-2 .title-filll:after {
-	background: #fff;
+	background: #f5f5f5;
 }
 
 .red-bg .title-fill:after {
@@ -9061,6 +9068,12 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 
 .price-btn-box.price-btn-bg .price-btn {
 	color: black;
+}
+.light-bg-1_white{
+	background:white;
+}
+.light-bg-2_gray{
+	background:#f5f5f5 ;
 }
 
 @media only screen and (max-width: 767px) {
