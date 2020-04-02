@@ -3073,7 +3073,7 @@ body,
 }
 
 .light-bg-2 {
-  background: #dedcdc;
+  background: #f5f5f5;
 }
 
 .dark-bg-1 {
@@ -5023,6 +5023,9 @@ body.anim .load-title-fill:after {
 .dark-bg-2 .title-fill:before {
   color: white;
 }
+.dark-bg-2 .title-filll:before {
+  color:#1d60a9;
+}
 
 .red-bg .title-fill:before {
   color: #262626;
@@ -5040,7 +5043,7 @@ body.anim .load-title-fill:after {
   background: #1b2a2f;
 }
 .dark-bg-2 .title-filll:after {
-  background: #fff;
+  background: #f5f5f5;
 }
 
 .red-bg .title-fill:after {
@@ -5081,6 +5084,9 @@ body.anim .load-title-fill:after {
   -webkit-transition-delay: 0.9s !important;
   -o-transition-delay: 0.9s !important;
   transition-delay: 0.9s !important;
+}
+.light-bg-1_white{
+  background: #ffffff;
 }
 
 .tr-delay07.title-fill:after {
