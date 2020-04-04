@@ -6756,12 +6756,38 @@ body.anim .slider-arrow-next-box {
   transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
 }
 
+.slider-arrow-prevv:before,
+.slider-arrow-nextt:before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
+  -o-transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
+  transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
+}
+
 .slider-arrow-next:before {
   left: auto;
   right: 6px;
   border: none;
   border-top: 2px solid white;
   border-right: 2px solid white;
+}
+
+.slider-arrow-nextt:before {
+  left: auto;
+  right: 6px;
+  border: none;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .swiper-button-prev:hover .slider-arrow-prev:before {
@@ -6772,6 +6798,16 @@ body.anim .slider-arrow-next-box {
 .swiper-button-next:hover .slider-arrow-next:before {
   border-top: 2px solid #1d60a9;
   border-right: 2px solid #1d60a9;
+}
+
+.swiper-button-prevv:hover .slider-arrow-prevv:before {
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.swiper-button-nextt:hover .slider-arrow-nextt:before {
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
 }
 
 .slider-arrow-prev:after,
@@ -6789,6 +6825,26 @@ body.anim .slider-arrow-next-box {
   width: 48px;
   height: 2px;
   background: #1d60a9;
+  -webkit-transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
+  -o-transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
+  transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
+}
+
+.slider-arrow-prevv:after,
+.slider-arrow-nextt:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  -webkit-transform: translateY(-50%) scaleX(0);
+  -ms-transform: translateY(-50%) scaleX(0);
+  transform: translateY(-50%) scaleX(0);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
+  width: 48px;
+  height: 2px;
+  background: #000000;
   -webkit-transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
   -o-transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
   transition: 0.7s cubic-bezier(0.2, 0.96, 0.34, 1);
