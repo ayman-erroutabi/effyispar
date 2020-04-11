@@ -3411,6 +3411,12 @@ body,
   font-family: 'Open Sans', sans-serif;
 }
 
+.p-letter-style-lower {
+  text-transform: inherit;
+  letter-spacing: 2.5px;/* 
+  font-size: 7px; */
+}
+
 @media only screen and (max-width: 1199px) {
   .title-style {
     font-size: 28px;
