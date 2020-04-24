@@ -1,9 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+		
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+ 
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
 
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f !important;
+    border-color: #108d6f !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #007b5e !important;
+    border-color: #007b5e !important;
+}
+
+section {
+    padding: 60px 0 !important;
+}
+
+section .section-title {
+    text-align: center !important;
+    color: #007b5e !important;
+    margin-bottom: 50px !important;
+    text-transform: uppercase !important;
+}
+
+#team .card {
+    border: none!important;
+    background: #ffffff !important;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+			/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+			@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	  #circle-shape-example { 
+		font-family: Open Sans, sans-serif; 
+		margin: 2rem; 
+	  }
+	  #circle-shape-example p { 
+		line-height: 1.8; 
+	  }
+	  #circle-shape-example .curve { 
+		width: 33%; height: auto;
+		min-width: 150px;
+		float: left;
+		margin-right:2rem; 
+		border-radius: 50%;
+		-webkit-shape-outside:circle();
+		shape-outside:circle();
+	  }
+	  
+	  
+	  #circle-shape-example  .rightcuvre {
+		width: 33%; height: auto;
+		min-width: 150px;
+		float: right;
+		margin-left:2rem;
+		border-radius: 50%;
+		-webkit-shape-outside:circle();
+		shape-outside:circle();
+	  }
+	  
+		  </style>
         <title>Effyis Partners</title>
 
 		<!-- icons FontAwesome for arrow -->
@@ -326,111 +486,21 @@
 						<!-- portfolio-content-inner start -->
 						<div class="portfolio-content-inner flex-min-height-inner">
 							<!-- flex-container start -->
-							<div class="flex-container container small  pralloxa">
-								<!-- column start -->
-								<div data-animation-container class="six-columns">
-									<div id="right-column">
-										<div class="content-right-margin-40">
-										
-											<h3 class="title-style text-color-1">
-												<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">NOTRE APPROCHE</span><br>
-											</h3>
-											<!-- <p data-animation-child class="p-style-medium text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Notre méthodologie est la suivante :
-											</p> -->
-											<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Nous faisons tout d’abord un état des lieux afin d’identifier les macro-processus et délimiter le périmètre qui sera optimisé et nous identifions les gains qualitatifs et quantitatifs qui émaneront de cette optimisation.</p>
-											<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Une fois les processus identifiés, nous établissons une cartographie détaillée de ceux-ci afin de pouvoir les analyser en profondeur et ainsi identifier les taches à non-valeurs ajoutées et les disfonctionnements ainsi que leur causes racines.</p>
-											<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Ensuite, nous dressons un plan d’action avec une liste d’axes d’améliorations ce qui nous permettra d’établir les processus cible remodelés et optimisés.</p>
-											<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Vient à ce moment-là la phase d’implémentation des axes d’améliorations et du processus cible pendant laquelle nous portons une attention toute particulière à la conduite de changement.</p>
-											<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Et enfin, nous mettons sous pilotage les processus optimisés (KPI’s & KRI’s) dans une optique d’amélioration continue</p>
-											<!-- <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
-												<a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a>
-											</div> -->
-											
-										</div>
-									</div><!-- column end -->
-								</div>
-							<!-- column start -->
-									<div class="six-columns top-padding-60">
-										<div id="left-column" >
-											<img src="assets/images/projects/pexels-photo-1619654.jpeg">
-											<!-- <a href="project.html" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
-												<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/pexels-photo-1619654.jpeg)"></div>
-											</a> -->
-										</div>
-									</div>
-							<!-- column end -->
-							</div><!-- flex-container end -->
-						</div><!-- portfolio-content-inner end -->
-					</div><!-- portfolio-content end -->
-				</div><!-- bottom-padding-90 end -->
-				
-				<!-- bottom-padding-90 start -->
-				<div class="bottom-padding-90">
-					<!-- portfolio-content start -->
-					<div class="portfolio-content flex-min-height-box">
-						<!-- portfolio-content-inner start -->
-						<div class="portfolio-content-inner flex-min-height-inner">
-							<!-- flex-container start -->
-							<div class="flex-container reverse container small">
-								<!-- column start -->
-								<div class="six-columns top-padding-60">
-									<a href="project.html" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
-										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/audio-cassette-cassette-tape-1626481.jpg)"></div>
-									</a>
-								</div><!-- column end -->
-								<!-- column start -->
-								<div data-animation-container class="six-columns">
-									<div class="content-left-margin-40">
-										
-										<h3 class="title-style text-color-1">
-											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Use Case :
-											</span><br>
-										
-										</h3>
-<!-- 										<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Notre indépendance et notre détermination à créer des relations de long terme basés sur la confiance, l’intégrité et le succès nous permet de proposer à nos clients une offre structurée et modulable, exclusivement axée sur la transformation. Nos consultants sont sélectionnés des meilleures grandes écoles et universités mondiales et possèdent une expérience conséquente de nos métiers.</p>
- -->									<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Une grande banque de la place nous a sollicité afin d’optimiser ses processus de mise en place et de traitement de « l’Internet Banking ».</p>
-								<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Les principaux objectifs ont été la sécurisation et l’amélioration de la relation client pour attirer de nouveaux flux, l’amélioration de l’efficacité Opérationnelle tout en maitrisant le Risque Opérationnel y afférant.</p>
-								<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim"><p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">la réorganisation de certaines entités de la Direction, l’amélioration et le pilotage de la qualité du service tout en définissant des engagements (interne/externe) par marché clients, l’amélioration du temps moyen de traitement des processus et la diminution du nombre de réclamations.</p>
-
-										<!-- <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
-											<a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a>
-										</div> -->
-										
-									</div>
-								</div><!-- column end -->
-							</div><!-- flex-container end -->
-						</div><!-- portfolio-content-inner end -->
-					</div><!-- portfolio-content end -->
-				</div><!-- bottom-padding-90 end -->
-				
-				<!-- bottom-padding-90 start -->
-				<div class="bottom-padding-90">
-					<!-- portfolio-content start -->
-					<div class="portfolio-content flex-min-height-box">
-						<!-- portfolio-content-inner start -->
-						<div class="portfolio-content-inner flex-min-height-inner">
-							<!-- flex-container start -->
 							<div class="flex-container container small">
 								<!-- column start -->
 								<div data-animation-container class="six-columns">
 									<div class="content-right-margin-40">
-										
+									
 										<h3 class="title-style text-color-1">
-											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Use case
-											</span><br>
-											
+											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">NOTRE APPROCHE</span><br>
 										</h3>
-										<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Une grande banque de la place nous a sollicité afin d’optimiser ses processus de mise en place et de traitement de « l’Internet Banking »</p>
-										<p data-animation-child class="p-style-medium text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Principaux Objectifs :</p>	
-										<ul style="margin-top: 5%;">
-											<li style="list-style:square !important;padding-left: 2%;">Sécuriser et améliorer la relation client pour maintenir le PNB actuel et attirer nouveaux flux</li><br/>
-											<li style="list-style:square !important;padding-left: 2%;">Générer de l’efficacité Opérationnelle</li><br/>
-											<li style="list-style:square !important;padding-left: 2%;">Maitriser le Risque Opérationnel dans le traitement des opérations des produits de « Cash Management », et ce front to back</li><br/>
-											<li style="list-style:square !important;padding-left: 2%;">Réorganisation de certaines entités de la Direction</li><br/>
-											<li style="list-style:square !important;padding-left: 2%;">Améliorer et piloter la qualité du service tout en définissant des engagements (interne/externe) par marché clients</li><br/>
-											<li style="list-style:square !important;padding-left: 2%;">Améliorer le temps moyen de traitement des processus (contrats et traitement des opérations BO)</li><br/>
-											<li style="list-style:square !important;padding-left: 2%;">Diminuer le nombre de réclamations par téléphone et par mail </li><br/>
-										</ul>
+										<!-- <p data-animation-child class="p-style-medium text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Notre méthodologie est la suivante :
+										</p> -->
+										<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Nous faisons tout d’abord un état des lieux afin d’identifier les macro-processus et délimiter le périmètre qui sera optimisé et nous identifions les gains qualitatifs et quantitatifs qui émaneront de cette optimisation.</p>
+										<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Une fois les processus identifiés, nous établissons une cartographie détaillée de ceux-ci afin de pouvoir les analyser en profondeur et ainsi identifier les taches à non-valeurs ajoutées et les disfonctionnements ainsi que leur causes racines.</p>
+										<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Ensuite, nous dressons un plan d’action avec une liste d’axes d’améliorations ce qui nous permettra d’établir les processus cible remodelés et optimisés.</p>
+										<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Vient à ce moment-là la phase d’implémentation des axes d’améliorations et du processus cible pendant laquelle nous portons une attention toute particulière à la conduite de changement.</p>
+										<p data-animation-child class="p-style-small text-color-2 fade-anim-box tr-delay04" data-animation="fade-anim">Et enfin, nous mettons sous pilotage les processus optimisés (KPI’s & KRI’s) dans une optique d’amélioration continue</p>
 										<!-- <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
 											<a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a>
 										</div> -->
@@ -440,13 +510,279 @@
 								<!-- column start -->
 								<div class="six-columns top-padding-60">
 									<a href="project.html" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
-										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/blur-close-up-equipment-1034651.jpg)"></div>
+										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/pexels-photo-1619654.jpeg)"></div>
 									</a>
 								</div><!-- column end -->
 							</div><!-- flex-container end -->
 						</div><!-- portfolio-content-inner end -->
 					</div><!-- portfolio-content end -->
 				</div><!-- bottom-padding-90 end -->
+				
+				<!-- bottom-padding-90 start -->
+				
+				<div id="circle-shape-example" style="padding-bottom: 81px;">
+					<h1>Use Case :</h1>
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/kiwifruit-on-a-plate.jpg" alt="A photograph of sliced kiwifruit on a while plate" class="curve">
+					
+				  
+					<p >Une grande banque de la place nous a sollicité afin d’optimiser ses processus de mise en place et de traitement de « l’Internet Banking ».</p>
+						<p>Les principaux objectifs ont été la sécurisation et l’amélioration de la relation client pour attirer de nouveaux flux, l’amélioration de l’efficacité Opérationnelle tout en maitrisant le Risque Opérationnel y afférant, la réorganisation de certaines entités de la Direction, l’amélioration et le pilotage de la qualité du service tout en définissant des engagements (interne/externe) par marché clients, l’amélioration du temps moyen de traitement des processus et la diminution du nombre de réclamations.</p>
+						
+				  </div>
+				
+					<div class="flex-container container">
+						<h5 class="section-title h1">OUR TEAM</h5>
+					
+							<!-- Team member -->
+							<div class="two-columns ">
+								<div class="image-flip" >
+									<div class="mainflip flip-0">
+										<div class="frontside">
+											<div class="card">
+												<div class="card-body text-center">
+													<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.</p>
+													<a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+												</div>
+											</div>
+										</div>
+										<div class="backside">
+											<div class="card">
+												<div class="card-body text-center mt-4">
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-facebook"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-twitter"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-skype"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-google"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./Team member -->
+							<!-- Team member -->
+							<div class="two-columns">
+								<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+									<div class="mainflip">
+										<div class="frontside">
+											<div class="card">
+												<div class="card-body text-center">
+													<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.</p>
+													<a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+												</div>
+											</div>
+										</div>
+										<div class="backside">
+											<div class="card">
+												<div class="card-body text-center mt-4">
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-facebook"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-twitter"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-skype"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-google"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./Team member -->
+							<!-- Team member -->
+							<div class="two-columns">
+								<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+									<div class="mainflip">
+										<div class="frontside">
+											<div class="card">
+												<div class="card-body text-center">
+													<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.</p>
+													<a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+												</div>
+											</div>
+										</div>
+										<div class="backside">
+											<div class="card">
+												<div class="card-body text-center mt-4">
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-facebook"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-twitter"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-skype"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-google"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./Team member -->
+							<!-- Team member -->
+							<div class="two-columns">
+								<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+									<div class="mainflip">
+										<div class="frontside">
+											<div class="card">
+												<div class="card-body text-center">
+													<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.</p>
+													<a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+												</div>
+											</div>
+										</div>
+										<div class="backside">
+											<div class="card">
+												<div class="card-body text-center mt-4">
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-facebook"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-twitter"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-skype"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-google"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./Team member -->
+							<!-- Team member -->
+							<div class="two-columns">
+								<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+									<div class="mainflip">
+										<div class="frontside">
+											<div class="card">
+												<div class="card-body text-center">
+													<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_05.png" alt="card image"></p>
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.</p>
+													<a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+												</div>
+											</div>
+										</div>
+										<div class="backside">
+											<div class="card">
+												<div class="card-body text-center mt-4">
+													<h4 class="card-title">Sunlimetech</h4>
+													<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-facebook"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-twitter"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-skype"></i>
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+																<i class="fa fa-google"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./Team member -->
+							<!-- Team member -->
+							
+							<!-- ./Team member -->
+				
+						
+					</div>
+				
+				<!-- bottom-padding-90 start -->
+				
+				<!-- bottom-padding-90 end -->
 			</section><!-- section end -->
 			<section id="down" class="light-bg-1 flex-min-height-box about-page">
 				<!-- flex-min-height-inner start -->
@@ -678,41 +1014,6 @@
 		
 		<!-- scripts --> 
         <script src="assets/js/plugins.js"></script> 
-		
-		<script type="text/javascript">
-			//calculate on load, resize, and Scroll        
-			jQuery(window).on("load resize scroll",function(e){
-			 var col1 = jQuery("#left-column").outerHeight();
-			   var col2 = jQuery("#right-column").outerHeight();
-			   var travel = col1 - col2;
-			   //top of columns
-			   var leftcol = jQuery('.pralloxa');
-			   if(leftcol.length){
-			 var topOfColumns = jQuery('.pralloxa').offset().top;
-			   var columns = jQuery('.pralloxa').outerHeight() - jQuery(window).innerHeight();
-			 var scrollInterval = columns / travel;
-			 
-			 //where the magic happens
-			var a = Math.round( (jQuery(window).scrollTop() - topOfColumns ) / scrollInterval);
-			var x = [col1,col2,topOfColumns,columns,scrollInterval];
-			console.log("df",x);
-			//find the bottom of the right column and give a Bool (true)
-			var b = jQuery(window).scrollTop() >= jQuery('#right-column').offset().top + jQuery('#right-column').outerHeight() - window.innerHeight;
-			
-			//if the user scrolls to the top of the collumns and the user has not scrolled to the bottom of the right column
-				   if (jQuery(window).scrollTop() >= topOfColumns && b === false ) {
-				   jQuery("#right-column").css({
-					   "-webkit-transform": "translate3d(0px, " + a + "px, 0px)",
-						"-moz-transform": "translate3d(0px, " + a + "px, 0px)",
-					 "-ms-transform": "translateY(" + a + "px)",
-					"-o-transform": "translate3d(0px, " + a + "px, 0px)",
-					   transform: "translate3d(0px, " + a + "px, 0px)"
-				   });
-				   }
-				   
-			}
-			});
-			</script>
-			<script src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script>
 	</body>
 </html>
