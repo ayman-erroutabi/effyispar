@@ -4908,6 +4908,9 @@ body.anim .load-title-fill:after {
   overflow: hidden;
   position: relative;
 }
+.overlay-anim-box23 {
+  display: block;
+}
 
 .overlay-anim-box2:before {
   content: '';
