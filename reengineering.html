@@ -49,16 +49,16 @@
     border-color: #007b5e !important;
 }
 
-section {
+/* section {
     padding: 60px 0 !important;
 }
-
-section .section-title {
+ */
+/* section .section-title {
     text-align: center !important;
     color: #007b5e !important;
     margin-bottom: 50px !important;
     text-transform: uppercase !important;
-}
+} */
 
 #team .card {
     border: none!important;
@@ -186,6 +186,13 @@ section .section-title {
 		-webkit-shape-outside:circle();
 		shape-outside:circle();
 	  }
+	  
+		*, ::after, ::before {
+    box-sizing: unset;}
+	
+	  /* footer {
+		  line-height: unset !important;
+	  } */
 	  
 		  </style>
         <title>Effyis Partners</title>
@@ -498,10 +505,10 @@ section .section-title {
 			<!-- section start -->
 			<section class="light-bg-1 bottom-padding-30 top-padding-120" style="background : #fff;" data-midnight="black">
 				<!-- container start -->
-				<div data-animation-container class="container  bottom-padding-60 ">
-					<h2 data-animation-child class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">A propos</h2><br>
+				<div data-animation-container class="container text-center bottom-padding-60 ">
+					<h2 data-animation-child class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">Notre Approche</h2><br>
 					
-					<div class="twelve-columns">
+					<div class="twelve-columns" style="text-align: left;">
 						<div class="">
 							<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim" data-animation="fade-anim">Nous faisons tout d’abord un état des lieux afin d’identifier les macro-processus et délimiter le périmètre qui sera optimisé et nous identifions les gains qualitatifs et quantitatifs qui émaneront de cette optimisation </p>
 							<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim" data-animation="fade-anim">Une fois les processus identifiés, nous établissons une cartographie détaillée de ceux-ci afin de pouvoir les analyser en profondeur et ainsi identifier les taches à non-valeurs ajoutées et les disfonctionnements ainsi que leur causes racines.</p>
@@ -524,50 +531,57 @@ section .section-title {
 				<!-- bottom-padding-90 end -->
 			</section>
 
-			<div class="portfolio-content flex-min-height-box"  style="background: white;">
-				<!-- portfolio-content-inner start -->
-				<div class="portfolio-content-inner flex-min-height-inner">
-					<!-- flex-container start -->
-					<div class="flex-container reverse container small">
-						<!-- column start -->
-						<div class="six-columns top-padding-60">
-							<a class="portfolio-content-bg-box hover-box hidden-box ">
-								<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2 animated overlay-anim2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/audio-cassette-cassette-tape-1626481.jpg)"></div>
-							</a>
-						</div><!-- column end -->
-						<!-- column start -->
-						<div data-animation-container="" class="six-columns animated">
-							<div class="content-left-margin-40">
-								
-								<h3 class="title-style text-color-1">
-									<span data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01 animated overlay-anim2" data-animation="overlay-anim2">Enjeux et Objectifs :
-									</span><br>
-								
-								</h3>
-								<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">L’optimisation de la performance (qualité, délais, …).</p>
-								<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">L’efficacité opérationnelle dans les équipes impactées (délais de traitements, ETP, …).</p>
-								<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">La maitrise du Risque opérationnel.</p>
-								<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">L’amélioration de la satisfaction client.</p>
-								<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">La réorganisation et la transformation d’entités.</p>
-								<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">L’amélioration continue des processus .</p>
-								<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">Le gain de PNB+..</p>
-
-								<!-- <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
-									<a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a>
-								</div> -->
-								
-							</div>
-						</div><!-- column end -->
-					</div><!-- flex-container end -->
-				</div><!-- portfolio-content-inner end -->
-			</div>
+			
+			<section class="light-bg-1 bottom-padding-30 top-padding-120" style="background : #fff;" data-midnight="black">
+				<div class="bottom-padding-90">
+					<!-- portfolio-content start -->
+					<div class="portfolio-content flex-min-height-box">
+						<!-- portfolio-content-inner start -->
+						<div class="portfolio-content-inner flex-min-height-inner">
+							<!-- flex-container start -->
+							<div class="flex-container reverse container small">
+								<!-- column start -->
+								<div class="six-columns top-padding-60">
+									<a class="portfolio-content-bg-box hover-box hidden-box ">
+										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/audio-cassette-cassette-tape-1626481.jpg)"></div>
+									</a>
+								</div><!-- column end -->
+								<!-- column start -->
+								<div data-animation-container class="six-columns">
+									<div class="content-left-margin-40">
+										
+										<h3 class=" text-color-1">
+											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">NOTRE FORCE
+											</span><br>
+										
+										</h3>
+										<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">L’optimisation de la performance (qualité, délais, …).</p>
+										<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">L’efficacité opérationnelle dans les équipes impactées (délais de traitements, ETP, …).</p>
+										<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">La maitrise du Risque opérationnel.</p>
+										<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">L’amélioration de la satisfaction client.</p>
+										<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">La réorganisation et la transformation d’entités.</p>
+										<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">L’amélioration continue des processus .</p>
+										<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim"  data-animation="fade-anim">Le gain de PNB+..</p>
+		
+										<!-- <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
+											<a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a>
+										</div> -->
+										
+									</div>
+								</div><!-- column end -->
+							</div><!-- flex-container end -->
+						</div><!-- portfolio-content-inner end -->
+					</div><!-- portfolio-content end -->
+				</div>
+				</section>
+	
 
 			<section class="light-bg-1 bottom-padding-30 top-padding-120" style="background : #fff;" data-midnight="black">
 				<!-- container start -->
-				<div data-animation-container class="container  bottom-padding-60 ">
-					<h2 data-animation-child class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">Use Case :</h2><br>
+				<div data-animation-container class="container  bottom-padding-60 text-center ">
+					<h2 data-animation-child class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2" >Use Case :</h2><br>
 					
-					<div class="twelve-columns">
+					<div class="twelve-columns" style="text-align: justify !important;">
 						<div class="">
 							<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim" data-animation="fade-anim">Une grande banque de la place nous a sollicité afin d’optimiser ses processus de mise en place et de traitement de « l’Internet Banking ». </p>
 							<p data-animation-child="" class="fade-anim-box hover-content tr-delay03 p-style-medium text-color-2 animated fade-anim" data-animation="fade-anim">Les principaux objectifs ont été la sécurisation et l’amélioration de la relation client pour attirer de nouveaux flux, l’amélioration de l’efficacité Opérationnelle tout en maitrisant le Risque Opérationnel y afférant, la réorganisation de certaines entités de la Direction, l’amélioration et le pilotage de la qualité du service tout en définissant des engagements (interne/externe) par marché clients, l’amélioration du temps moyen de traitement des processus et la diminution du nombre de réclamations.</p>
@@ -591,12 +605,11 @@ section .section-title {
 			
 			<section class="latest-news top-padding-120 bottom-padding-30 light-bg-1" data-midnight="black">
 				<!-- container start -->
-				<div class="container">
+				<div data-animation-container="" class="container text-center ">
 					<!-- text-center start -->
-					<div data-animation-container="" class="text-center animated">
-						<h2 data-animation-child="" class="large-title text-height-10 text-color-1 overlay-anim-box2 animated overlay-anim2" data-animation="overlay-anim2">Approche et Méthodologie :</h2><br>
+						<h2 data-animation-child="" class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">Approche et Méthodologie :</h2><br>
 						<p data-animation-child="" class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5 animated fade-anim" data-animation="fade-anim">Nous avons accompagné la banque en utilisant une méthode Lean 6 Sigma (DMAIC) dont voici les principaux livrables.</p>
-					</div><!-- text-center end -->
+					<!-- text-center end -->
 
 					<!-- flex-container start -->
 					<div class="flex-container response-999 top-padding-60">
@@ -605,7 +618,7 @@ section .section-title {
 								<div class="mainflip">
 									<div class="frontside">
 										<div class="card profile" style="width:12rem;background: white;">
-											<div class="card-body" style="    padding-top: 19%;">
+											<div class="card-body" style="padding-top: 19%;">
 												<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7pmT3lMtcAaI0HyFel0IYCH9KnZnmU0ivlsl96QdtFVhq8FvB">
 											  <h5 class="card-title">Define </h5>
 											  
@@ -616,8 +629,8 @@ section .section-title {
 									<div class="backside">
 										
 									<div class="card profile" style="width: 12rem;background: white;">
-										<div class="card-body" style="     padding-top: 23%;;">
-											<p class="card-text">Charte projet, SIPOC (Supplier, Input, Process, Output, Customer), VOC & VOB (Voice Of The Customer & Voice Of The Business)….</p>
+										<div class="card-body" style="     padding-top: 23%;">
+											<p class="card-text" style=" text-align: left !important;">Charte projet, SIPOC (Supplier, Input, Process, Output, Customer), VOC & VOB (Voice Of The Customer & Voice Of The Business)….</p>
 										  
 										 
 										</div>
@@ -643,7 +656,7 @@ section .section-title {
 									
 								<div class="card profile" style="width: 12rem;background: white;">
 									<div class="card-body" style="     padding-top: 23%;;">
-										<p class="card-text">: VSM process initial As-IS (Value Stream Mapping), Plan de collecte de données…</p>
+										<p class="card-text" style=" text-align: left !important;">VSM process initial As-IS (Value Stream Mapping), Plan de collecte de données…</p>
 									  
 									 
 									</div>
@@ -670,7 +683,7 @@ section .section-title {
 								
 							<div class="card profile" style="width: 12rem;background: white;">
 								<div class="card-body" style="     padding-top: 23%;;">
-									<p class="card-text">Matrice Risque As-Is et problèmes, Analyses Causes Racines….</p>
+									<p class="card-text" style=" text-align: left !important;">Matrice Risque As-Is et problèmes, Analyses Causes Racines….</p>
 								  
 								 
 								</div>
@@ -696,7 +709,7 @@ section .section-title {
 							
 						<div class="card profile" style="width: 12rem;background: white;">
 							<div class="card-body" style="     padding-top: 23%;;">
-								<p class="card-text">Plan d’action des axes d’améliorations, Matrice Risque To-Be, VSM Pocess cible….</p>
+								<p class="card-text" style=" text-align: left !important;">Plan d’action des axes d’améliorations, Matrice Risque To-Be, VSM Pocess cible….</p>
 							  
 							 
 							</div>
@@ -723,7 +736,7 @@ section .section-title {
 						
 					<div class="card profile" style="width: 12rem;background: white;">
 						<div class="card-body" style="     padding-top: 23%;;">
-							<p class="card-text">Mise sous pilotage (KPI’s & KRI’s).</p>
+							<p class="card-text" style=" text-align: left !important;">Mise sous pilotage (KPI’s & KRI’s).</p>
 						  
 						 
 						</div>
@@ -742,11 +755,11 @@ section .section-title {
 					<!-- container start -->
 					<div class="container ">
 						<!-- flex-container start -->
-						<div data-animation-container="" class="flex-container animated">
+						<div data-animation-container="" class="flex-container container animated">
 							<!-- column start -->
 							<div class="four-columns">
 								<div class="content-right-margin-20">
-									<h2 data-animation-child="" class="title-style title-fill animated title-fill-anim" data-animation="title-fill-anim" data-text="Résultats">Résultats</h2>
+									<h2 data-animation-child="" class=" title-fill title-filll animated title-fill-anim " data-animation="title-fill-anim" data-text="Résultats" style="text-transform: uppercase;">Résultats</h2>
 								</div>
 							</div>
 							<div class="eight-columns">
@@ -772,7 +785,7 @@ section .section-title {
 		</main><!-- animsition-overlay end -->
 		
 		<!-- footer start -->
-		<footer class="footer dark-bg-1">
+		<footer class="footer dark-bg-1" style="box-sizing:inherit !important;">
 			<!-- flex-container start -->
 			<div class="flex-container container top-bottom-padding-90" style=" padding-bottom:2%;">
 				<!-- column start -->
