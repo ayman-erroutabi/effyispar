@@ -4929,6 +4929,23 @@ body.anim .load-title-fill:after {
   transform: translateX(0);
 }
 
+.overlay-anim-box24:before {
+  content: '';
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: 1s cubic-bezier(0.86, 0, 0.07, 1);
+  -o-transition: 1s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 1s cubic-bezier(0.86, 0, 0.07, 1);
+  z-index: 3;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
 .overlay-anim-box2.overlay-anim2:before {
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);

@@ -1,0 +1,23 @@
+/* Styles go here */
+
+.box {
+    display:block;
+    width:200px;
+    height:100px;
+    background-color:#DDD;
+}
+#pop {
+    padding:0px 0px;
+}
+#example {
+    position:relative;
+}
+.right,.left {
+    min-width: 20%;
+    top: 968.5px;
+    left: 440.948px;
+    display: block;
+    min-height: 20%;
+    text-align: center;
+    padding-top: 10px;
+}
